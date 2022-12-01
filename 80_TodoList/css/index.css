@@ -71,3 +71,41 @@
   border: 1px solid rgb(122, 122, 122);
 }
 
+.list-wrap .j-list {
+  width: 100%;
+  margin-top: 44px;
+}
+
+.list-wrap .j-list .item {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+.list-wrap .j-list .item:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.list-wrap .j-list .item.active {
+  background-color: #dff0d8;
+}
+
+.list-wrap .j-list .item-content {
+  float: left;
+}
+
+.list-wrap .j-list .btn-group {
+  float: right;
+}
+
+.list-wrap .j-list .btn-group a {
+  margin-right: 10px;
+}
+
+.list-wrap .j-list .btn-group .edit-btn {
+  color: #456344;
+}
+
+.list-wrap .j-list .btn-group .remove-btn {
+  color: #ba2c13;
+}
